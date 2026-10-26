@@ -32,14 +32,12 @@ wheels/
 venv/
 env/
 ENV/
-.env
 .venv
 pip-log.txt
 pip-delete-this-directory.txt
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 .DS_Store
@@ -48,7 +46,6 @@ pip-delete-this-directory.txt
 .settings/
 
 # FastAPI
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -98,3 +95,4 @@ schema.graphql
 /.benchmarks/
 /references/
 /strix_runs_main/
+config.bat
